@@ -7,7 +7,7 @@ body {
 }
 
 .image {
-  background-image: url(../images/stone.jpg);
+  background-image: url(../images/rock.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,28 +16,41 @@ body {
   text-align: center;
   align-items: center;
   margin: 0;
-  /* color: #fff; */
+  color: #486df3;
   width: 100vw;
   font-size: 28px;
 }
 
 .btn [type='text'] {
   padding: 8px;
-  width: 25vw;
+  width: 20vw;
   border-radius: 8px;
   border: none;
   color: #fff;
   background-color: skyblue;
   font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.weights {
+  padding: 8px;
+  width: 35vw;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background-color: #f5c339;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 button {
   padding: 8px;
   font-size: 24px;
   width: 90px;
-  background-color: #fad4a3;
+  background-color: #708cf4;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  color: #fff;
 }
 
